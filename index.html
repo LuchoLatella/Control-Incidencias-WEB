@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de incidencias GO ADM DEL ESCALAFÓN GRAL Y CTRL DE ENTORNOS DESCENTRALIZADOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Control de incidencias GO ADM DEL ESCALAFÓN GRAL Y CTRL DE ENTORNOS DESCENTRALIZADOS</h1>
+
+    <div class="buttons">
+        <button onclick="limpiarDatos()">Limpieza de Datos</button>
+        <button onclick="eliminarUsuarios()">Eliminar Usuarios</button>
+        <button onclick="generarTablaDinamica()">Generar Tabla Dinámica</button>
+        <button onclick="guardarComo()">Guardar como...</button>
+    </div>
+
+    <input type="file" id="fileInput" accept=".csv, .xls, .xlsx" onchange="cargarArchivo()">
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
